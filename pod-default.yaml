@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: q3
+spec:
+  containers:
+    - image: nginx
+      name: nginx
+      resources:
+        requests:
+          memory: "1Gi"
+        limits:
+          memory: "1Gi"
+
+
